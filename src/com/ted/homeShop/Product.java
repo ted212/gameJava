@@ -1,3 +1,5 @@
+package com.ted.homeShop;
+
 public class Product {
 
     private String name;
