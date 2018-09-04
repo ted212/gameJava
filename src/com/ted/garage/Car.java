@@ -26,6 +26,16 @@ public class Car extends Vehicle {
         System.out.println("J'ouvre mon coffre");
     }
 
+    @Override
+    public void start() {
+        System.out.println("Je suis " + modelName + " je consomme " + literPer100km + "l au 100km et je démarre !");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Je suis " + modelName + " j'arrête mon moteur " + motor);
+    }
+
 
     public int getDoor() {
         return door;
